@@ -1,4 +1,4 @@
-import { mens_shirts2 } from "@/lib/data/data";
+// import { mens_shirts2 } from "@/data/data";
 export default async function Home() {
   // let mens_shirts;
   // try {
