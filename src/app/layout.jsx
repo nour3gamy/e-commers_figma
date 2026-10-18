@@ -5,6 +5,7 @@ import Navbar from "@/components/Navpar";
 import Footer from "@/components/Footer";
 import AppProvider from "@/Providers/AppProvider";
 import InputData from "@/components/InputData";
+import Glopal from "@/components/Glopal";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <AppProvider>
           <InputData />
           <Navbar />
+          <Glopal />
           <div className="bg-white min-h-screen text-black">
             <div className="h-full mt-25.5 md:mt-31.5">{children}</div>
           </div>

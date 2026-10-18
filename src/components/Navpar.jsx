@@ -30,13 +30,13 @@ export default function Navbar() {
             <Link href="/">WHAT'S NEW</Link>
           </div>
           <div className="text-sm rounded-xl p-2 hover:text-white hover:bg-[#6F6969]">
-            <Link href="">Men</Link>
+            <Link href="/Men">Men</Link>
           </div>
           <div className="text-sm rounded-xl p-2 hover:text-white hover:bg-[#6F6969]">
-            <Link href="">Women</Link>
+            <Link href="/Women">Women</Link>
           </div>
           <div className="text-sm rounded-xl p-2 hover:text-white hover:bg-[#6F6969]">
-            <Link href="">Kids</Link>
+            <Link href="/Kids">Kids</Link>
           </div>
           <div className="text-sm rounded-xl p-2 hover:text-white hover:bg-[#6F6969] ">
             <Link href="">SALE</Link>
