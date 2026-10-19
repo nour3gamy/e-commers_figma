@@ -94,14 +94,16 @@ export default function HomePage() {
         {/* What's Special? */}
         <div>
           <h1>WHAT'S SPECIAL?</h1>
-          <div className="flex my-7 mx-auto justify-center gap-8 items-center">
+          {/* <div className="flex my-7 mx-auto justify-center gap-8 items-center"> */}
+          <div className="flex flex-wrap gap-6 justify-center my-7">
+            {/* PROMO */}
             <div>
               <div className="relative flex justify-center items-center size-55 outline-hidden bg-[url('/womenwear2.jpg')] bg-cover bg-center rounded-3xl">
                 <div className="absolute inset-0 bg-black/30 rounded-3xl" />
                 <div className="relative text-white text-xl">PROMO</div>
               </div>
             </div>
-
+            {/* LATEST COLLECTION */}
             <div>
               <div className="relative flex justify-center items-center size-55 outline-hidden bg-[url('/menwear2.jpg')] bg-cover bg-center rounded-3xl">
                 <div className="absolute inset-0 bg-black/30 rounded-3xl" />

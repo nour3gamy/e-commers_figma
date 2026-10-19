@@ -4,6 +4,7 @@ import { IoCloseSharp, IoCartOutline } from "react-icons/io5";
 import { BiUser } from "react-icons/bi";
 import { GrLocation } from "react-icons/gr";
 import { FiPhoneCall } from "react-icons/fi";
+import { HiMiniBars3 } from "react-icons/hi2";
 export default function Icons({ name, color = "black" }) {
   switch (name) {
     case "search":
@@ -20,6 +21,8 @@ export default function Icons({ name, color = "black" }) {
       return <GrLocation color={color} />;
     case "phone":
       return <FiPhoneCall color={color} />;
+    case "bars":
+      return <HiMiniBars3 color={color} />;
     default:
       "";
   }

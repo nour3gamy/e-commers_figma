@@ -36,9 +36,11 @@ export default function RootLayout({ children }) {
         <AppProvider>
           <InputData />
           <Navbar />
-          <Glopal />
           <div className="bg-white min-h-screen text-black">
-            <div className="h-full mt-25.5 md:mt-31.5">{children}</div>
+            <div className="h-full mt-[calc(2*clamp(2.25rem,4vw,4rem)+3rem)]">
+              <Glopal />
+              {children}
+            </div>
           </div>
           <Footer />
         </AppProvider>
